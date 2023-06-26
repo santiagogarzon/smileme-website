@@ -43,7 +43,7 @@ const HeroSlider = () => {
                     </p>
 
                     <div className="alternative-common-btn">
-                      <Link href="/appointment">¡Pide tu cita!</Link>
+                      <Link href="/contact">¡Pide tu cita!</Link>
                       <Link href="/about" className="cmn-btn-right">
                         Saber más
                       </Link>
@@ -81,7 +81,7 @@ const HeroSlider = () => {
                     </p>
 
                     <div className="alternative-common-btn">
-                      <Link href="/appointment">¡Pide tu cita!</Link>
+                      <Link href="/contact">¡Pide tu cita!</Link>
                       <Link href="/about" className="cmn-btn-right">
                         Saber más
                       </Link>

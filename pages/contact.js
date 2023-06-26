@@ -26,8 +26,6 @@ const Contact = () => {
 
       <ContactForm />
 
-      <GoogleMap />
-
       <Footer />
     </>
   );

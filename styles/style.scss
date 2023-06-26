@@ -71,6 +71,13 @@ $all-size: 15px;
     scroll-behavior: initial;
 }
 
+.only-mobile {
+    display: none;
+}
+.only-desktop {
+    display: block;
+}
+
 /*-- Default CSS --*/
 body {
     font-family: $body-font;
@@ -415,9 +422,10 @@ button {
     .slider-shape {
         img {
             position: absolute;
-            top: -9px;
-            right: -90px;
+            top: 0;
+            right: 0;
             max-width: 730px;
+            max-height: 600px;
         }
     }
     .slider-shape-two {

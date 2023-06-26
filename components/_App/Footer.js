@@ -63,7 +63,7 @@ const Footer = () => {
             <p>
               Copyright &copy; {currentYear} Design & Developed by{" "}
               <a href="https://hibootstrap.com/" target="_blank">
-                SantiagoGarzon
+                SmileMe
               </a>
             </p>
           </div>

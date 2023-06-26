@@ -46,7 +46,21 @@ const Navbar = () => {
               <Link href="/" className="navbar-brand">
                 <img src="/images/logo.png" alt="logo" width={150} />
               </Link>
-
+              <div className="only-mobile">
+                <ReactWhatsapp
+                  number="+54 9 11 7632-0535"
+                  message="Buenos días, me gustaría recibir más información sobre SmileMe Aligners."
+                  element="div"
+                >
+                  <i
+                    className="icofont-whatsapp"
+                    style={{
+                      fontSize: "40px",
+                      color: "green",
+                    }}
+                  ></i>
+                </ReactWhatsapp>
+              </div>
               <button
                 onClick={toggleNavbar}
                 className={classTwo}
@@ -122,7 +136,7 @@ const Navbar = () => {
                   <ReactWhatsapp
                     number="+54 9 11 7632-0535"
                     message="Buenos días, me gustaría recibir más información sobre SmileMe Aligners."
-                    element="a"
+                    element="div"
                   >
                     <li className="nav-item">
                       <Link href="" style={{ color: "green" }}>

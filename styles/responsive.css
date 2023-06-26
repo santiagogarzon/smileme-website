@@ -1,4 +1,10 @@
 @media only screen and (max-width: 767px) {
+  .only-mobile {
+    display: block;
+  }
+  .only-desktop {
+    display: none;
+  }
   body {
     font-size: 14px;
   }
@@ -53,8 +59,7 @@
   .slider-item .slider-shape img {
     position: relative;
     top: 0;
-    right: 0;
-    left: 0;
+    right: -15px;
     margin-left: auto;
     margin-right: auto;
     max-width: 290px;
@@ -67,7 +72,7 @@
     left: 0;
     margin-left: auto;
     margin-right: auto;
-    max-width: 290px;
+    max-width: 390px;
     margin-bottom: 20px;
   }
   .slider-item .slider-shape-three img {
@@ -87,8 +92,8 @@
     height: 100%;
     left: 0;
     top: 0;
-    background-color: #0046c0;
-    opacity: 0.8;
+    background-color: #5e3277;
+    opacity: 0.87;
   }
   .slider-item .slider-text {
     margin-top: 0px;
@@ -1599,7 +1604,7 @@
     border-radius: 10px;
     z-index: -1;
     animation: a-one 5s infinite linear;
-    background-color: #0046c0;
+    background-color: #5e3277;
   }
   .about-left:after {
     position: absolute;
