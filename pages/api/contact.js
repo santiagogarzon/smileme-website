@@ -4,8 +4,7 @@ import sgTransport from "nodemailer-sendgrid-transport";
 const transporter = {
   auth: {
     // Update your SendGrid API key here
-    api_key:
-      "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",
+    api_key: process.env.api_key,
   },
 };
 
