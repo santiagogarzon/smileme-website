@@ -9,7 +9,7 @@ const SignUpForm = () => {
           <div className="row">
             <div className="col-lg-6 pl-0">
               <div className="signup-left">
-                <img src="/images/signup-bg.jpg" alt="SignUp" />
+                <img src="/images/signup-bg.jpeg" alt="SignUp" />
               </div>
             </div>
 
@@ -75,7 +75,7 @@ const SignUpForm = () => {
                           />
                         </div>
                       </div>
-                      
+
                       <div className="col-lg-6">
                         <div className="form-group">
                           <input

@@ -3275,7 +3275,7 @@ footer {
 /*----- SIGN UP PAGE -----*/
 /*-- Sign Up --*/
 .signup-left {
-  background-image: url("/images/signup-bg.jpg");
+  background-image: url("/images/signup-bg.jpeg");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -3443,7 +3443,7 @@ footer {
   left: 0;
   top: 0;
   z-index: -1;
-  background-color: #EBAA24;
+  background-color: #5e3277;
   transition: 0.5s all ease;
 }
 .department-item:after {
@@ -3454,7 +3454,7 @@ footer {
   right: 0;
   top: 0;
   z-index: -1;
-  background-color: #EBAA24;
+  background-color: #5e3277;
   transition: 0.5s all ease;
 }
 .department-item:hover:before {
@@ -3529,7 +3529,7 @@ footer {
 }
 
 .service-details-inner-left {
-  background-image: url("/images/signup-bg.jpg");
+  background-image: url("/images/signup-bg.jpeg");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;

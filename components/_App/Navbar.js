@@ -100,10 +100,9 @@ const Navbar = () => {
 
                   <li className="nav-item">
                     <Link
-                      href="/ortodoncia-invisible/"
-                      onClick={(e) => e.preventDefault()}
+                      href="/service-details/"
                       className={`nav-link ${
-                        currentPath == "/ortodoncia-invisible/" && "active"
+                        currentPath == "/service-details/" && "active"
                       }`}
                     >
                       Ortodoncia Invisible
@@ -113,7 +112,6 @@ const Navbar = () => {
                   <li className="nav-item">
                     <Link
                       href="/ortodoncista/"
-                      onClick={(e) => e.preventDefault()}
                       className={`nav-link ${
                         currentPath == "/ortodoncista/" && "active"
                       }`}

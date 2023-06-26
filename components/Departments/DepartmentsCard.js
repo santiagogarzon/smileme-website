@@ -1,4 +1,4 @@
-import React from "react"; 
+import React from "react";
 
 const DepartmentsCard = () => {
   return (
@@ -9,10 +9,10 @@ const DepartmentsCard = () => {
             <div className="col-sm-6 col-lg-4">
               <div className="department-item">
                 <i className="icofont-tooth"></i>
-                <h3>Dental Care</h3>
+                <h3>MODELO</h3>
                 <p>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Praesentium eaque omnis corporis, animi aspernatur tempora.
+                  Si tienes termoformadora y solo necesitas el MODELO, puedes
+                  acceder solo a él enviando el archivo STL.
                 </p>
               </div>
             </div>
@@ -20,10 +20,11 @@ const DepartmentsCard = () => {
             <div className="col-sm-6 col-lg-4">
               <div className="department-item">
                 <i className="icofont-baby"></i>
-                <h3>Baby Care</h3>
+                <h3>MODELOS Y ALINEADORES</h3>
                 <p>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Praesentium eaque omnis corporis, animi aspernatur tempora.
+                  Puedes enviarnos el archivo STL con sus números de alineador y
+                  si es superior o inferior y se realizaran listos para ser
+                  entregados a tu paciente.
                 </p>
               </div>
             </div>
@@ -31,10 +32,12 @@ const DepartmentsCard = () => {
             <div className="col-sm-6 col-lg-4">
               <div className="department-item">
                 <i className="icofont-laboratory"></i>
-                <h3>Laboratory</h3>
+                <h3>MARCA PROPIA</h3>
                 <p>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Praesentium eaque omnis corporis, animi aspernatur tempora.
+                  Tu marca a los modelos y ser entregados junto a los
+                  alineadores en nuestra caja y cada alineador en nuestras
+                  bolsas, con tu etiqueta detallando tu marca, paciente y numero
+                  de alineador, junto a los accesorios que viene en la caja.
                 </p>
               </div>
             </div>
@@ -42,10 +45,11 @@ const DepartmentsCard = () => {
             <div className="col-sm-6 col-lg-4">
               <div className="department-item">
                 <i className="icofont-icu"></i>
-                <h3>ICU</h3>
+                <h3>SI NO TIENES MARCA PROPIA</h3>
                 <p>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Praesentium eaque omnis corporis, animi aspernatur tempora.
+                  Confeccionamos los alineadores terminados para ser entregados
+                  a tu paciente en una caja con nuestra marca y con todos los
+                  accesorios que trae la caja
                 </p>
               </div>
             </div>
@@ -53,10 +57,10 @@ const DepartmentsCard = () => {
             <div className="col-sm-6 col-lg-4">
               <div className="department-item">
                 <i className="icofont-dna-alt-2"></i>
-                <h3>DNA Test</h3>
+                <h3>PLACAS DE CONTENCION</h3>
                 <p>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Praesentium eaque omnis corporis, animi aspernatur tempora.
+                  Confeccionamos las placas de contención para ser entregados a
+                  tu paciente en una caja con nuestra marca.
                 </p>
               </div>
             </div>
@@ -64,43 +68,10 @@ const DepartmentsCard = () => {
             <div className="col-sm-6 col-lg-4">
               <div className="department-item">
                 <i className="icofont-surgeon"></i>
-                <h3>Surgeon</h3>
+                <h3> LLAVES DE TRANSFERENCIA</h3>
                 <p>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Praesentium eaque omnis corporis, animi aspernatur tempora.
-                </p>
-              </div>
-            </div>
-
-            <div className="col-sm-6 col-lg-4">
-              <div className="department-item">
-                <i className="icofont-xray"></i>
-                <h3>X-ray</h3>
-                <p>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Praesentium eaque omnis corporis, animi aspernatur tempora.
-                </p>
-              </div>
-            </div>
-
-            <div className="col-sm-6 col-lg-4">
-              <div className="department-item">
-                <i className="icofont-blood-test"></i>
-                <h3>Blood Test</h3>
-                <p>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Praesentium eaque omnis corporis, animi aspernatur tempora.
-                </p>
-              </div>
-            </div>
-
-            <div className="col-sm-6 col-lg-4">
-              <div className="department-item">
-                <i className="icofont-ambulance-crescent"></i>
-                <h3>Ambulance Service</h3>
-                <p>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Praesentium eaque omnis corporis, animi aspernatur tempora.
+                  CEMENTADO INDIRECTO de brackets, que incluye brackets de la
+                  marca FORESTADENT con un importante descuento.
                 </p>
               </div>
             </div>

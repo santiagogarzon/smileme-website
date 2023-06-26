@@ -1,4 +1,4 @@
-import React from "react"; 
+import React from "react";
 
 const ServiceDetailsContent = () => {
   return (
@@ -6,71 +6,94 @@ const ServiceDetailsContent = () => {
       <div className="service-details-area ptb-100">
         <div className="container">
           <div className="services-details-img">
-            <img src="/images/service-details-bg.jpg" alt="Service Details" />
+            <img src="/images/banner-servicio.png" alt="Service Details" />
 
-            <h2>Our Hospital Always Provide Good Services</h2>
+            <h2>¿Que es un alineador?</h2>
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book. It has
-              survived not only five centuries, but also the leap into
-              electronic typesetting, remaining essentially unchanged. It was
-              popularised in the 1960s with the release of Letraset sheets
-              containing Lorem Ipsum passages, and more recently with desktop
-              publishing software like Aldus PageMaker including versions of
-              Lorem Ipsum.
+              Un alineador para ortodoncia es un dispositivo utilizado en
+              tratamientos de ortodoncia para corregir la posición de los
+              dientes, mediante un material específico con propiedades
+              estudiadas. Está diseñado específicamente para cada paciente a
+              partir del escaneado de su boca antes de comenzar con la
+              planificación.
             </p>
 
             <blockquote>
-              <i className="icofont-quote-left"></i>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint
-              optio rem magni, dolorum aut vel nostrum quae, fugit
-              necessitatibus eius perferendis. Quia optio tenetur pariatur
-              aliquam obcaecati enim quam eum?Lorem ipsum dolor sit amet
-              consectetur adipisicing elit. Sint optio rem magni, dolorum aut
-              vel nostrum quae, fugit necessitatibus eius perferendis. Quia
-              optio tenetur pariatur aliquam obcaecati enim quam eum?
+              <i className="icofont-"></i>
+              <b>El objetivo principal</b> del alineador es aplicar una presión
+              suave y constante sobre los dientes, moviéndolos gradualmente
+              hacia la posición deseada. Cada juego de alineadores se usa
+              durante aproximadamente dos semanas y luego se reemplaza por un
+              juego nuevo que sigue el siguiente paso en un plan de tratamiento
+              trazado por un ortodoncista con experiencia, que realizara un
+              seguimiento periódico y asi asegurarse que los alineadores están
+              trabajando según lo planificado, hasta lograr el fin del
+              tratamiento.
             </blockquote>
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book. It has
-              survived not only five centuries, but also the leap into
-              electronic typesetting, remaining essentially unchanged. It was
-              popularised in the 1960s with the release of Letraset sheets
-              containing Lorem Ipsum passages, and more recently with desktop
-              publishing software like Aldus PageMaker including versions of
-              Lorem Ipsum.
+              Se comienza con la primer consulta con el Ortodoncista, quien
+              analizara si tu caso es posible de tratar con alineadores. En el
+              caso de ser aceptado para este tipo de tratamiento se realizara
+              una planificación que determinara el numero de alineadores que
+              deberás usar durante el tratamiento y teniendo en cuenta que se
+              usan unos 14-15 días cada alineador, eso va a determinar el tiempo
+              total del tratamiento. El Ortodoncista acreditado mandara el plan
+              de tratamiento al laboratorio donde se confeccionan los modelos de
+              tus dientes para cada etapa y los de allí salen los alineadores
+              que deberás usar según su indicación, unas 22 horas al dia,
+              pudiéndotelos sacar para alimentarte y después de una correcta
+              higiene volver a colocártelos. Según la cantidad y duración del
+              tratamiento, el ortodoncista determinara si hay que realizar
+              modificaciones en el tratamiento para corregir el funcionamiento y
+              llegar mas pronto al final del mismo.
             </p>
           </div>
 
           <div className="row">
             <div className="col-lg-5">
               <div className="service-details-inner-left">
-                <img src="/images/signup-bg.jpg" alt="Service" />
+                <img src="/images/signup-bg.jpeg" alt="Service" />
               </div>
             </div>
             <div className="col-lg-7">
               <div className="service-details-inner">
-                <h2>We Always Take Care Our Patient</h2>
-                <p>
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Architecto blanditiis obcaecati veritatis magnam pariatur
-                  molestiae in maxime. Animi quae vitae in inventore. Totam
-                  mollitia aspernatur provident veniam aperiam placeat impedit!
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Saepe rem natus nobis, dolorum nam excepturi iure autem nemo
-                  ducimus temporibus facere, est eum voluptatem, culpa optio
-                  fugit assumenda quod? Praesentium.
-                </p>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Id,
-                  laudantium ullam, iure distinctio officia libero voluptatem
-                  obcaecati vero deleniti minima nemo itaque alias nisi eveniet
-                  soluta architecto quae laboriosam unde.
-                </p>
+                <h2>NUESTRA DIFERENCIAS</h2>
+                <ul>
+                  <li>
+                    <p>
+                      Se utilizan para la <b>impresión de modelos</b>,
+                      impresoras de alta calidad de terminación para marcar la
+                      mejor fidelidad del escaneo de tus dientes que luego se
+                      trasladaran al alineador con el ajuste perfecto, además de
+                      ser compatibles con la producción de alineadores de
+                      impresión directa con resinas especiales.
+                    </p>
+                  </li>
+                  <li>
+                    {" "}
+                    <p>
+                      <b>
+                        Utilización de materiales acordes a las necesidades que
+                        indica la planificación.
+                      </b>{" "}
+                      Según los movimientos que se planifican en cada etapa se
+                      puede utilizar diferentes tipos de materiales de placas
+                      con diferencia en espesores y maleabilidad, siempre
+                      eligiendo la mejor calidad de placas que existe en el
+                      mercado.
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      <b>
+                        {" "}
+                        Area de pulido y acabamiento de los alineadores
+                        utilizando los mejores materiales para lograr una
+                        terminación suave y confortable.
+                      </b>
+                    </p>
+                  </li>
+                </ul>
               </div>
             </div>
           </div>

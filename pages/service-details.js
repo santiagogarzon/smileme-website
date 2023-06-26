@@ -13,10 +13,10 @@ const ServiceDetails = () => {
       <Navbar />
 
       <PageBanner
-        pageTitle="Service Details"
+        pageTitle="Ortodoncia Invisible"
         homePageUrl="/"
         homePageText="Home"
-        activePageText="Service Details"
+        activePageText="Ortodoncia Invisible"
         bgImage="page-title-one"
       />
 
