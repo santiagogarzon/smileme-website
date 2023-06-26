@@ -44,6 +44,9 @@ const HeroSlider = () => {
 
                     <div className="alternative-common-btn">
                       <Link href="/appointment">¡Pide tu cita!</Link>
+                      <Link href="/about" className="cmn-btn-right">
+                        Saber más
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -69,55 +72,18 @@ const HeroSlider = () => {
                         alt="Shape"
                       />
                     </div>
-                    <h1>Caring Health is Important Than All</h1>
+                    <h1>
+                      Trabajamos con ortodoncistas de todas partes del país
+                    </h1>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua. Quis ipsum suspendisse ultrices gravida.
+                      Si eres ortodoncista, tenemos numerosos servicios pensados
+                      para ti.
                     </p>
 
-                    <div className="common-btn">
-                      <Link href="/appointment">Get Appointment</Link>
+                    <div className="alternative-common-btn">
+                      <Link href="/appointment">¡Pide tu cita!</Link>
                       <Link href="/about" className="cmn-btn-right">
-                        Learn More
-                      </Link>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </SwiperSlide>
-
-        <SwiperSlide>
-          <div
-            className="slider-item"
-            style={{
-              backgroundImage: `url(/images/home-one/home-slider-bg.png)`,
-            }}
-          >
-            <div className="d-table">
-              <div className="d-table-cell">
-                <div className="container">
-                  <div className="slider-text">
-                    <div className="slider-shape-three">
-                      <img
-                        src="/images/home-one/home-slider3.png"
-                        alt="Shape"
-                      />
-                    </div>
-                    <h1>We Offer Highly Treatments</h1>
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua. Quis ipsum suspendisse ultrices gravida.
-                    </p>
-
-                    <div className="common-btn">
-                      <Link href="/appointment">Get Appointment</Link>
-
-                      <Link href="/about" className="cmn-btn-right">
-                        Learn More
+                        Saber más
                       </Link>
                     </div>
                   </div>

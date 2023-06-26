@@ -7,20 +7,22 @@ const Services = () => {
       <div className="services-area pb-70">
         <div className="container">
           <div className="section-title">
-            <h2>Our Hospital Services</h2>
+            <h2>Beneficios</h2>
           </div>
 
           <div className="row justify-content-center">
             <div className="col-sm-6 col-lg-3">
               <div className="service-item">
                 <div className="service-front">
-                  <i className="icofont-doctor"></i>
+                  <i className="icofont-eye-open"></i>
                   <Link href="/service-details">
-                    <h3>Expert Doctor</h3>
+                    <h3>Casi invisibles</h3>
                   </Link>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod
+                    Al ser casi invisibles y transparentes ofrecen un resultado
+                    mucho más estético porque no hay componentes metálicos
+                    evidentes en los dientes. Esto facilita que los pacientes
+                    los usen durante sus actividades diarias.
                   </p>
                 </div>
               </div>
@@ -29,13 +31,16 @@ const Services = () => {
             <div className="col-sm-6 col-lg-3">
               <div className="service-item">
                 <div className="service-front">
-                  <i className="icofont-prescription"></i>
+                  <i className="icofont-loop"></i>
                   <Link href="/service-details">
-                    <h3>Diagnosis</h3>
+                    <h3>Removible</h3>
                   </Link>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod
+                    Otro beneficio clave de los alineadores transparentes es su
+                    característica removible, se los quitan durante las comidas
+                    y se los vuelven a colocar previa higienización de los
+                    dientes, continuando con sus rutinas diarias, incluso
+                    sociales.
                   </p>
                 </div>
               </div>
@@ -44,88 +49,34 @@ const Services = () => {
             <div className="col-sm-6 col-lg-3">
               <div className="service-item">
                 <div className="service-front">
-                  <i className="icofont-patient-file"></i>
+                  <i className="icofont-bird-wings"></i>
                   <Link href="/service-details">
-                    <h3>Pathology</h3>
+                    <h3>Cómodos</h3>
                   </Link>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod
+                    Una de las ventajas de los alineadores transparentes sobre
+                    los brackets metálicos es que son más cómodos de llevar,
+                    haciendo mucho más agradable el proceso de tratamiento en el
+                    tiempo
                   </p>
                 </div>
               </div>
             </div>
-
             <div className="col-sm-6 col-lg-3">
               <div className="service-item">
                 <div className="service-front">
-                  <i className="icofont-tooth"></i>
+                  <i className="icofont-bathtub"></i>
                   <Link href="/service-details">
-                    <h3>Dental Care</h3>
+                    <h3>Mejor higiene oral </h3>
                   </Link>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-sm-6 col-lg-3">
-              <div className="service-item">
-                <div className="service-front">
-                  <i className="icofont-heart-beat-alt"></i>
-                  <Link href="/service-details">
-                    <h3>Cardiology</h3>
-                  </Link>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-sm-6 col-lg-3">
-              <div className="service-item">
-                <div className="service-front">
-                  <i className="icofont-drug"></i>
-                  <Link href="/service-details">
-                    <h3>Medicine</h3>
-                  </Link>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-sm-6 col-lg-3">
-              <div className="service-item">
-                <div className="service-front">
-                  <i className="icofont-dna-alt-1"></i>
-                  <Link href="/service-details">
-                    <h3>Neurology</h3>
-                  </Link>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-sm-6 col-lg-3">
-              <div className="service-item">
-                <div className="service-front">
-                  <i className="icofont-ambulance-cross"></i>
-                  <Link href="/service-details">
-                    <h3>Ambulance</h3>
-                  </Link>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod
+                    Cuando usa brackets tradicionales, cepillarse los dientes o
+                    usar hilo dental de manera efectiva es mas complicado. Una
+                    de las mayores ventajas de los alineadores transparentes es
+                    que las personas pueden cepillarse los dientes y usar hilo
+                    dental normalmente sin esfuerzo adicional. Esto puede
+                    proteger los dientes de las caries durante el tratamiento y
+                    también reducir el riesgo de enfermedad de las encías.
                   </p>
                 </div>
               </div>

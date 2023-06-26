@@ -7,7 +7,7 @@ const OurExpertise = () => {
       <div className="expertise-area pb-70">
         <div className="container">
           <div className="section-title">
-            <h2>Our Expertise</h2>
+            <h2>Etapas de un tratamiento con alineadores</h2>
           </div>
 
           <div className="row align-items-center">
@@ -18,10 +18,13 @@ const OurExpertise = () => {
                     <div className="expertise-inner">
                       <i className="icofont-doctor-alt"></i>
                       <h3>
-                        <Link href="/doctor-details">Certified Doctors</Link>
+                        <Link href="/doctor-details">
+                          Consulta con profesional
+                        </Link>
                       </h3>
                       <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        quien analizara si tu caso es posible de tratar con
+                        alineadores.
                       </p>
                     </div>
                   </div>
@@ -29,10 +32,11 @@ const OurExpertise = () => {
                     <div className="expertise-inner">
                       <i className="icofont-stretcher"></i>
                       <h3>
-                        <Link href="/doctor-details">Emergency</Link>
+                        <Link href="/doctor-details">Planificación</Link>
                       </h3>
                       <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Planificación que determinara el numero de alineadores
+                        que deberás usar.
                       </p>
                     </div>
                   </div>
@@ -40,10 +44,11 @@ const OurExpertise = () => {
                     <div className="expertise-inner">
                       <i className="icofont-network"></i>
                       <h3>
-                        <Link href="/doctor-details">Teachnology</Link>
+                        <Link href="/doctor-details">Tratamiento</Link>
                       </h3>
                       <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Se confeccionan los modelos de tus dientes para cada
+                        etapa.
                       </p>
                     </div>
                   </div>
@@ -51,10 +56,11 @@ const OurExpertise = () => {
                     <div className="expertise-inner">
                       <i className="icofont-ambulance-cross"></i>
                       <h3>
-                        <Link href="/doctor-details">Ambulance</Link>
+                        <Link href="/doctor-details">Control y Desarrollo</Link>
                       </h3>
                       <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        modificaciones en el tratamiento para corregir el
+                        funcionamiento.
                       </p>
                     </div>
                   </div>

@@ -553,7 +553,7 @@ button:focus {
 .counter-item h3 {
   font-weight: 700;
   font-size: 48px;
-  color: #EBAA24;
+  color: #5e3277;
   margin-bottom: 8px;
 }
 .counter-item p {
@@ -772,7 +772,7 @@ button:focus {
   color: #fff;
 }
 .expertise-item .expertise-inner {
-  background-color: #EBAA24;
+  background-color: #5e3277;
   padding: 42px 25px 35px 25px;
   border-radius: 10px;
   margin-bottom: 30px;
@@ -2209,7 +2209,7 @@ footer {
 /*----- Doctor Page -----*/
 /*-- Page Title --*/
 .page-title-one {
-  background-image: url("/images/page-banner1.jpg");
+  background-image: url("/images/page-banner1.jpeg");
 }
 
 .page-title-area {
@@ -2228,7 +2228,7 @@ footer {
   width: 100%;
   height: 100%;
   opacity: 0.5;
-  background-color: #EBAA24;
+  background-color: #5e3277;
 }
 
 .page-title-item {

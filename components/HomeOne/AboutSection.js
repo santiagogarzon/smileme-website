@@ -18,30 +18,34 @@ const AboutSection = () => {
             <div className="col-lg-6">
               <div className="about-item about-right">
                 <img src="/images/about-shape1.png" alt="About" />
-                <h2>About Our Hospital</h2>
+                <h2>¿Que es un alineador?</h2>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Quis ipsum suspendisse ultrices gravida. Risus commodo viverra
-                  maecenas accumsan lacus vel facilisis.{" "}
+                  Un alineador para ortodoncia es un dispositivo utilizado en
+                  tratamientos de ortodoncia para corregir la posición de los
+                  dientes, mediante un material específico con propiedades
+                  estudiadas. Está diseñado específicamente para cada paciente a
+                  partir del escaneado de su boca antes de comenzar con la
+                  planificación. El objetivo principal del alineador es aplicar
+                  una presión suave y constante sobre los dientes, moviéndolos
+                  gradualmente hacia la posición deseada.{" "}
                 </p>
 
                 <ul>
                   <li>
                     <i className="icofont-check-circled"></i>
-                    Browse Our Website
+                    COMODO
                   </li>
                   <li>
                     <i className="icofont-check-circled"></i>
-                    Choose Service
+                    INVISIBLE
                   </li>
                   <li>
                     <i className="icofont-check-circled"></i>
-                    Send Messege
+                    EFECTIVO
                   </li>
                 </ul>
 
-                <Link href="/about">Know More</Link>
+                <Link href="/about">Saber más</Link>
               </div>
             </div>
           </div>

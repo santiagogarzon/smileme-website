@@ -603,7 +603,7 @@ button {
     h3 {
         font-weight: 700;
         font-size: 48px;
-        color: $main-color;
+        color: $violet-color;
         margin-bottom: 8px;
     }
     p {
@@ -831,7 +831,7 @@ button {
         color: #fff;
     }
     .expertise-inner {
-        background-color: $main-color;
+        background-color: $violet-color;
         padding: 42px 25px 35px 25px;
         border-radius: 10px;
         margin-bottom: 30px;
@@ -2407,7 +2407,7 @@ footer {
 /*----- Doctor Page -----*/
 /*-- Page Title --*/
 .page-title-one {
-    background-image: url('/images/page-banner1.jpg');
+    background-image: url('/images/page-banner1.jpeg');
 }
 .page-title-area {
     background-size: cover;
@@ -2425,7 +2425,7 @@ footer {
         width: 100%;
         height: 100%;
         opacity: .50;
-        background-color: $main-color;
+        background-color: $violet-color;
     }
 }
 .page-title-item {
