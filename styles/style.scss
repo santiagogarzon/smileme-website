@@ -112,8 +112,14 @@ img {
 .pt-100 {
     padding-top: 100px;
 }
+.pt-50 {
+    padding-top: 50px;
+}
 .pb-70 {
     padding-bottom: 70px;
+}
+.pb-35 {
+    padding-bottom: 35px;
 }
 .pb-100 {
     padding-bottom: 100px;
@@ -883,7 +889,7 @@ button {
             z-index: -1;
             border-radius: 10px;
             animation: a-one 5s infinite linear;
-            background-color: $main-color;
+            background-color: $violet-color;
         }
         &:after {
             position: absolute;
@@ -895,7 +901,7 @@ button {
             z-index: -1;
             border-radius: 10px;
             animation: a-two 5s infinite linear;
-            background-color: $main-color;
+            background-color: $violet-color;
         }
         img {
             width: 100%;
@@ -1270,11 +1276,11 @@ button {
 
 /*-- Footer --*/
 footer {
-    background-image: url('/images/footer-bg.png');
+    // background-image: url('/images/footer-bg.png');
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    background-color: #0843aa;
+    background-color: #5e3277;
     position: relative;
 }
 .footer-item {
@@ -1282,7 +1288,7 @@ footer {
 
     .footer-contact {
         h3 {
-            color: $white-color;
+            color: $main-color;
             font-weight: 600;
             font-size: 22px;
             margin-bottom: 30px;
@@ -1294,24 +1300,25 @@ footer {
             li {
                 list-style-type: none;
                 display: block;
-                color: $white-color;
                 font-weight: 500;
                 font-size: $all-size;
                 padding-left: 60px;
                 position: relative;
                 margin-bottom: 30px;
+                color: $main-color;
+                
 
                 &:last-child {
                     margin-bottom: 0;
                     margin-left: 0;
 
                     i {
-                        top: 2px;
+                        top: -8px;
                     }
                 }
                 a {
                     display: block;
-                    color: $white-color;
+                    color: $main-color;
                     margin-bottom: 7px;
 
                     &:last-child {
@@ -1327,17 +1334,18 @@ footer {
                 }
                 i {
                     position: absolute;
-                    top: 2px;
+                    top: -8px;
                     left: 0;
                     font-size: 42px;
                     transition: $transition;
+                    color: $main-color;
                 }
             }
         }
     }
     .footer-quick {
         h3 {
-            color: $white-color;
+            color: $main-color;
             font-weight: 600;
             font-size: 22px;
             margin-bottom: 30px;
@@ -1350,6 +1358,7 @@ footer {
                 list-style-type: none;
                 display: block;
                 margin-bottom: 20px;
+                color: $main-color;
 
                 &:last-child {
                     margin-bottom: 0;
@@ -1358,7 +1367,7 @@ footer {
                     display: block;
                     font-weight: 500;
                     font-size: $all-size;
-                    color: $white-color;
+                    color: $main-color;
 
                     &:hover {
                         margin-left: 5px;
@@ -1386,7 +1395,7 @@ footer {
                 padding-left: 0;
                 padding-top: 0;
                 padding-bottom: 15px;
-                color: $white-color;
+                color: $main-color;
 
                 &:focus {
                     box-shadow: none;
@@ -1407,7 +1416,7 @@ footer {
             transition: $transition;
 
             &:hover {
-                color: $white-color;
+                color: $main-color;
                 background-color: $black-color;
             }
         }
@@ -1695,7 +1704,7 @@ footer {
     }
 }
 .speciality-right {
-    background-image: url('/images/about4.jpg');
+    background-image: url('/images/about4.jpeg');
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -2411,7 +2420,6 @@ footer {
 }
 .page-title-area {
     background-size: cover;
-    background-position: center center;
     background-repeat: no-repeat;
     height: 400px;
     text-align: center;

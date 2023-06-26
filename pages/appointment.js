@@ -14,7 +14,7 @@ const Appointment = () => {
         pageTitle="Pedi una cita"
         homePageUrl="/"
         homePageText="Home"
-        activePageText="Appointment"
+        activePageText="Pedir cita"
         bgImage="page-title-one"
       />
 

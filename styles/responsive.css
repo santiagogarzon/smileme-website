@@ -12,8 +12,14 @@
   .pt-100 {
     padding-top: 50px;
   }
+  .pt-50 {
+    padding-top: 25px;
+  }
   .pb-70 {
     padding-bottom: 20px;
+  }
+  .pb-35 {
+    padding-bottom: 10px;
   }
   .pb-100 {
     padding-bottom: 50px;
@@ -81,8 +87,8 @@
     height: 100%;
     left: 0;
     top: 0;
-    background-color: #5e3277;
-    opacity: 0.9;
+    background-color: #0046c0;
+    opacity: 0.8;
   }
   .slider-item .slider-text {
     margin-top: 0px;

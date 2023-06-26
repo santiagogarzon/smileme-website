@@ -145,7 +145,7 @@ const ContactForm = () => {
 
             <div className="col-lg-5 p-0">
               <div className="speciality-item speciality-right speciality-right-two speciality-right-three">
-                <img src="/images/about4.jpg" alt="Contact" />
+                <img src="/images/about4.jpeg" alt="Contact" />
 
                 <div className="speciality-emergency">
                   <div className="speciality-icon">

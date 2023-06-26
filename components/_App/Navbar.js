@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useRouter } from "next/router";
 import Link from "next/link";
+import ReactWhatsapp from "react-whatsapp";
 
 const Navbar = () => {
   // Add active class
@@ -117,6 +118,18 @@ const Navbar = () => {
                       Contactanos
                     </Link>
                   </li>
+
+                  <ReactWhatsapp
+                    number="+54 9 11 7632-0535"
+                    message="Buenos días, me gustaría recibir más información sobre SmileMe Aligners."
+                    element="a"
+                  >
+                    <li className="nav-item">
+                      <Link href="" style={{ color: "green" }}>
+                        <i className="icofont-whatsapp"></i> Whatsapp
+                      </Link>
+                    </li>
+                  </ReactWhatsapp>
                 </ul>
               </div>
             </nav>

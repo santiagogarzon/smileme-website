@@ -18,24 +18,14 @@ const About = () => {
       <Navbar />
 
       <PageBanner
-        pageTitle="About"
+        pageTitle="Quienes somos"
         homePageUrl="/"
         homePageText="Home"
-        activePageText="About"
+        activePageText="Quienes somos"
         bgImage="page-title-one"
       />
 
       <AboutContent />
-
-      <FunFacts />
- 
-      <OurExpertise />
-
-      <Services />
-
-      <TestimonialSlider />
-
-      <LatestBlogPost />
 
       <Footer />
     </>

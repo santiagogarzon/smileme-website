@@ -9,10 +9,8 @@ const ContactInfo = () => {
             <div className="col-sm-6 col-lg-4">
               <div className="location-item">
                 <i className="icofont-location-pin"></i>
-                <h3>Location</h3>
-                <p>
-                  2108-267 Road Quadra, Toronto, <br /> Victiria Canada
-                </p>
+                <h3>Ubicaciónes</h3>
+                <p>Estamos en todo el país, con más de 100 consultorios</p>
               </div>
             </div>
 
@@ -20,17 +18,15 @@ const ContactInfo = () => {
               <div className="location-item">
                 <i className="icofont-ui-message"></i>
                 <h3>Email</h3>
-                <p>hello@disin.com</p>
-                <p>emailexample@name.com</p>
+                <p>info@smilemealigners.com</p>
               </div>
             </div>
 
             <div className="col-sm-6 col-lg-4">
               <div className="location-item">
                 <i className="icofont-ui-call"></i>
-                <h3>Phone</h3>
-                <p>+07 5554 3332 322</p>
-                <p>+07 5554 3332 322</p>
+                <h3>Telefono</h3>
+                <p>+54 9 11 7632-0535</p>
               </div>
             </div>
           </div>

@@ -1,4 +1,4 @@
-import React from "react"; 
+import React from "react";
 
 const AppointmentForm = () => {
   return (
@@ -13,7 +13,7 @@ const AppointmentForm = () => {
                 </div>
 
                 <h2></h2>
-                <span>We will confirm your appointment within 2 hours</span>
+                <span>Te vamos a confirmar tu cita en 1 día habil</span>
 
                 <div className="appointment-form">
                   <form>
@@ -21,11 +21,22 @@ const AppointmentForm = () => {
                       <div className="col-lg-6">
                         <div className="form-group">
                           <i className="icofont-business-man-alt-1"></i>
-                          <label>Name</label>
+                          <label>Nombre</label>
                           <input
                             type="text"
                             className="form-control"
-                            placeholder="Enter Your Name"
+                            placeholder="Ingrese su nombre"
+                          />
+                        </div>
+                      </div>
+                      <div className="col-lg-6">
+                        <div className="form-group">
+                          <i className="icofont-pin"></i>
+                          <label>Ciudad</label>
+                          <input
+                            type="text"
+                            className="form-control"
+                            placeholder="Ingrese su ciudad"
                           />
                         </div>
                       </div>
@@ -37,7 +48,7 @@ const AppointmentForm = () => {
                           <input
                             type="email"
                             className="form-control"
-                            placeholder="Enter Your Email"
+                            placeholder="Ingrese su email"
                           />
                         </div>
                       </div>
@@ -45,56 +56,11 @@ const AppointmentForm = () => {
                       <div className="col-lg-6">
                         <div className="form-group">
                           <i className="icofont-ui-call"></i>
-                          <label>Phone</label>
+                          <label>Telefono</label>
                           <input
                             type="text"
                             className="form-control"
-                            placeholder="Enter Your Number"
-                          />
-                        </div>
-                      </div>
-
-                      <div className="col-lg-6">
-                        <div className="form-group">
-                          <i className="icofont-hospital"></i>
-                          <label>Services</label>
-                          <select
-                            className="form-control"
-                            id="exampleFormControlSelect1"
-                          >
-                            <option>Dental Care</option>
-                            <option>2</option>
-                            <option>3</option>
-                            <option>4</option>
-                            <option>5</option>
-                          </select>
-                        </div>
-                      </div>
-
-                      <div className="col-lg-6">
-                        <div className="form-group">
-                          <i className="icofont-doctor"></i>
-                          <label>Doctor</label>
-                          <select
-                            className="form-control"
-                            id="exampleFormControlSelect2"
-                          >
-                            <option>Choose Your Doctor</option>
-                            <option>John Smith</option>
-                            <option>Sarah Taylor</option>
-                            <option>Stevn King</option>
-                          </select>
-                        </div>
-                      </div>
-
-                      <div className="col-lg-6">
-                        <div className="form-group">
-                          <i className="icofont-business-man"></i>
-                          <label>Age</label>
-                          <input
-                            type="text"
-                            className="form-control"
-                            placeholder="Your Age"
+                            placeholder="Ingrese su telefono"
                           />
                         </div>
                       </div>
@@ -102,7 +68,7 @@ const AppointmentForm = () => {
 
                     <div className="text-center">
                       <button type="submit" className="btn appointment-btn">
-                        Submit
+                        Enviar
                       </button>
                     </div>
                   </form>
@@ -113,25 +79,22 @@ const AppointmentForm = () => {
             <div className="col-lg-5">
               <div className="appointment-item-two-right">
                 <div className="appointment-item-content">
-                  <h2>Working Hours</h2>
+                  <h2>Horario de atención</h2>
                   <ul>
                     <li>
-                      Monday <span>9:00 AM - 8:00 PM</span>
+                      Lunes <span>9:00 AM - 8:00 PM</span>
                     </li>
                     <li>
-                      Tuesday <span>9:00 AM - 8:00 PM</span>
+                      Martes <span>9:00 AM - 8:00 PM</span>
                     </li>
                     <li>
-                      Wednesday <span>9:00 AM - 8:00 PM</span>
+                      Miercoles <span>9:00 AM - 8:00 PM</span>
                     </li>
                     <li>
-                      Thursday <span>9:00 AM - 8:00 PM</span>
+                      Jueves <span>9:00 AM - 8:00 PM</span>
                     </li>
                     <li>
-                      Friday <span>9:00 AM - 8:00 PM</span>
-                    </li>
-                    <li>
-                      Saturday <span>9:00 AM - 8:00 PM</span>
+                      Viernes <span>9:00 AM - 8:00 PM</span>
                     </li>
                   </ul>
                 </div>

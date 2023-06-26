@@ -15,10 +15,10 @@ const Contact = () => {
       <Navbar />
 
       <PageBanner
-        pageTitle="Contact Us"
+        pageTitle="Contactanos"
         homePageUrl="/"
         homePageText="Home"
-        activePageText="Contact Us"
+        activePageText="Contactanos"
         bgImage="page-title-one"
       />
 
