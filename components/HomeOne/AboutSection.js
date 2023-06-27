@@ -45,7 +45,7 @@ const AboutSection = () => {
                   </li>
                 </ul>
 
-                <Link href="/about">Saber más</Link>
+                <Link href="/service-details/">Saber más</Link>
               </div>
             </div>
           </div>

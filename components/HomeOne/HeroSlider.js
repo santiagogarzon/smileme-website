@@ -82,7 +82,7 @@ const HeroSlider = () => {
 
                     <div className="alternative-common-btn">
                       <Link href="/contact">¡Pide tu cita!</Link>
-                      <Link href="/about" className="cmn-btn-right">
+                      <Link href="/ortodoncista/" className="cmn-btn-right">
                         Saber más
                       </Link>
                     </div>
